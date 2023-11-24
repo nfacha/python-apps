@@ -1,10 +1,10 @@
 app_version: 1.0.0
-name: RSS
-description: Allows access to read RSS feeds
+name: RSSArticles
+description: Allows access to read RSS feed articles
 contact_info:
-  name: "@frikkylikeme"
-  url: https://shuffler.io
-  email: frikky@shuffler.io
+  name: "@facha"
+  url: https://facha.dev
+  email: nuno@facha.dev
 tags:
   - Intel 
 categories:
@@ -17,7 +17,7 @@ actions:
         description: The JSON to handle 
         required: true
         multiline: false 
-        example: 'https://timesofindia.indiatimes.com/rssfeedstopstories.cms'
+        example: 'https://www.cncs.gov.pt/docs/alertas-seguranca/feed-rss/index.xml'
         schema:
           type: string
     returns:
