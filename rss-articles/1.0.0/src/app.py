@@ -26,6 +26,7 @@ class RSSArticles(AppBase):
         # It comes in as a string, so needs to be set to JSON
         NewsFeed = feedparser.parse(url)
         entry = NewsFeed.entries
+        return entry
 
     # Write your data inside this function
     #def get_rss_feed(self, url):
