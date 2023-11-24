@@ -37,4 +37,4 @@ class RSSArticles(AppBase):
     #    return entry.keys()
 
 if __name__ == "__main__":
-    RSS.run()
+    RSSArticles.run()
